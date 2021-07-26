@@ -35,20 +35,22 @@
             <div class="more-less">More</div>
             <div>Javascript</div>
             <div>Typescript</div>
+            <div>Node js</div>
             <div>HTML5</div>
             <div>CSS</div>
-            <div>Angular 6+</div>
+            <div>Angular</div>
             <div>Vue.js</div>
             <div>Git</div>
-            <div>Java 8</div>
+            <div>MongoDB</div>
           </div>
           <div class="skills set-center">
             <div class="more-less">Less</div>
             <div>Python</div>
+            <div>Java</div>
             <div>Spring boot</div>
             <div>SCSS</div>
-            <div>Node js</div>
             <div>SQL</div>
+            <div>Azure devops</div>
           </div>
         </div>
       </div>
@@ -95,7 +97,111 @@
       <div class="prof-container">
         <div class="header">Professional experience</div>
         <hr class="hr-line-right">
-        <div class="company">Company: ITware Kft. (2018 august - now)</div>
+
+        <div class="company">Freelancer project (Greenformatics Kft.)</div>
+        <ul>
+          <li>
+            <div class="exp-title">Budapest Bank BUPA (2021 june  - 2021 july)</div>
+            <div class="m-b-5">
+              This application is a blog page, it displays articles.
+            </div>
+            <div class="exp-task-cont">
+              <div class="exp-title">Tasks: </div>
+              <div>Frontend development, my task was to create the connetion between the frontend and the backend</div>
+            </div>
+            <div class="exp-task-cont">
+              <div class="bold exp-title">Tech stack: </div>
+              <div>Angular 12, HTML5, SCSS, Git</div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="company">Company: EPAM (2021 april - now)</div>
+        <ul>
+          <li>
+            <div class="exp-title">Opportunity Accessor (2020 june - now)</div>
+            <div class="m-b-5">
+              This is a geological tool, it helps geologists to find the best places to drill for oil.
+            </div>
+            <div class="exp-task-cont">
+              <div class="exp-title">Tasks: </div>
+              <div>Frontend development</div>
+            </div>
+            <div class="exp-task-cont">
+              <div class="bold exp-title">Tech stack: </div>
+              <div>Angular 11, RxJs, Typescript, HTML5, SCSS, Git, Azrure Devops</div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="company">Freelancer project</div>
+        <ul>
+          <li>
+            <div class="exp-title">Caerusia (2020 november  - 2021 april)</div>
+            <div class="m-b-5">
+              This is a gamification tool for an english teacher, with role play thematics.
+            </div>
+            <div class="exp-task-cont">
+              <div class="exp-title">Tasks: </div>
+              <div>Architetcure planning, Backend development, Frontend development, Deployment</div>
+            </div>
+            <div class="exp-task-cont">
+              <div class="bold exp-title">Tech stack: </div>
+              <div>Node js, Vue.js, Vuex, MongoDB, Vue material, HTML5, SCSS, Git, Auth0</div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="company">Pet project</div>
+        <ul>
+          <li>
+            <div class="exp-title">NFL tipper game (2020 june  - 2020 august)</div>
+            <div class="m-b-5">
+              This is a game, where the users can play with their friends. They can guess the winner of a game, they collect points, and at the end of the season the user who collected the most points, wins.
+            </div>
+            <div class="exp-task-cont">
+              <div class="exp-title">Tasks: </div>
+              <div>Architetcure planning, Backend development, Frontend development, Deployment</div>
+            </div>
+            <div class="exp-task-cont">
+              <div class="bold exp-title">Tech stack: </div>
+              <div>Node js, Vue JS, MongoDB, Vue material, HTML5, SCSS, Git, NFL data API integration, email sending service</div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="company">Company: Accenture (2020 february - 2021 march)</div>
+        <ul>
+          <li>
+            <div class="exp-title">Qatar airways Discovery (2020 august - 2021 march)</div>
+            <div class="m-b-5">
+              Discovery provides up-to-date information about destinations COVID situation and regulations,
+              by this helps the passangers to select the safest destination
+            </div>
+            <div class="exp-task-cont">
+              <div class="exp-title">Tasks: </div>
+              <div>Architetcure planning, Frontend development</div>
+            </div>
+            <div class="exp-task-cont">
+              <div class="bold exp-title">Tech stack: </div>
+              <div>Angular 8, RxJs, Angular material Typescript, HTML5, SCSS, Git, Azrure Devops</div>
+            </div>
+          </li>
+          <li>
+            <div class="exp-title">Kunden focus (2020 march - 2020 july)</div>
+            <div class="m-b-5">This application was built for customers to help them handling tax cases</div>
+            <div class="exp-task-cont">
+              <div class="exp-title">Tasks: </div>
+              <div>Frontend development</div>
+            </div>
+            <div class="exp-task-cont">
+              <div class="bold exp-title">Tech stack: </div>
+              <div>Angular 8, RxJs, Angular material Typescript, HTML5, SCSS, Git</div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="company">Company: ITware Kft. (2018 august - 2020 january)</div>
         <ul>
           <li>
             <div class="exp-title">SQMS (2019 September – now, outsorced to Telekom)</div>
@@ -118,7 +224,7 @@
             </div>
             <div class="exp-task-cont">
               <div class="bold exp-title">Tech stack: </div>
-              <div>Vue JS, JavaScript, Vuex, HTML5, SCSS, Git</div>
+              <div>Vue.js, JavaScript, Vuex, HTML5, SCSS, Git</div>
             </div>
           </li>
           <li>
@@ -192,6 +298,7 @@ export default {
 <style>
 .main-container {
     display: flex;
+    justify-content: center;
 }
 .left-container {
     background-color: rgb(221, 221, 221);
