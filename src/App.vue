@@ -25,6 +25,9 @@
           <div class="data">
             <span class="key"><i class="fa fa-linkedin"></i></span><span>linkedin.com/in/tamás-horváth-00505714b</span>
           </div>
+          <div class="data">
+            <span class="key"><img src="../public/hackerrank.svg" class="hackerrank"></span><span>hackerrank.com/horvathtamas22</span>
+          </div>
         </div>
       </div>
       <div class="skills-container">
@@ -82,7 +85,7 @@
         <hr class="hr-line-right">
         <div class="edu-inner-cont">
           <div class="edu-years">2017 - 2018</div>
-          <div class="school">Codecool - sofware developer</div>
+          <div class="school">Codecool - fullstack sofware developer</div>
         </div>
         <div class="edu-inner-cont">
           <div class="edu-years">2003 - 2006</div>
@@ -437,5 +440,9 @@ li {
 }
 .set-center {
     text-align: center;
+}
+.hackerrank {
+  width: 14px;
+  height: 14px;
 }
 </style>
