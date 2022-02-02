@@ -41,7 +41,9 @@
             <div>Node js</div>
             <div>HTML5</div>
             <div>CSS</div>
+            <div>SCSS</div>
             <div>Angular</div>
+            <div>rxjs</div>
             <div>Vue.js</div>
             <div>Git</div>
             <div>MongoDB</div>
@@ -51,7 +53,6 @@
             <div>Python</div>
             <div>Java</div>
             <div>Spring boot</div>
-            <div>SCSS</div>
             <div>SQL</div>
             <div>Azure devops</div>
           </div>
@@ -85,7 +86,7 @@
         <hr class="hr-line-right">
         <div class="edu-inner-cont">
           <div class="edu-years">2017 - 2018</div>
-          <div class="school">Codecool - fullstack sofware developer</div>
+          <div class="school">Codecool - fullstack software developer</div>
         </div>
         <div class="edu-inner-cont">
           <div class="edu-years">2003 - 2006</div>
@@ -100,6 +101,39 @@
       <div class="prof-container">
         <div class="header">Professional experience</div>
         <hr class="hr-line-right">
+
+        <div class="company">Freelancer at Contum Kft.</div>
+        <ul>
+          <li>
+            <div class="exp-title">E-sign</div>
+            <div class="m-b-5">
+              This is a document e-sign application.
+            </div>
+            <div class="exp-task-cont">
+              <div class="exp-title">Tasks: </div>
+              <div>Frontend development</div>
+            </div>
+            <div class="exp-task-cont">
+              <div class="bold exp-title">Tech stack: </div>
+              <div>Angular 8, rxjs, HTML5, SCSS, Git, Rest API</div>
+            </div>
+          </li>
+
+          <li>
+            <div class="exp-title">Contum portal</div>
+            <div class="m-b-5">
+              This is the main application of Contum Kft. This handles the user authentication, and allows the user to select application.
+            </div>
+            <div class="exp-task-cont">
+              <div class="exp-title">Tasks: </div>
+              <div>Frontend development</div>
+            </div>
+            <div class="exp-task-cont">
+              <div class="bold exp-title">Tech stack: </div>
+              <div>Quasar, Vue js 2, HTML5, SCSS, Git, Rest API</div>
+            </div>
+          </li>
+        </ul>
 
         <div class="company">Freelancer project (Greenformatics Kft.)</div>
         <ul>
@@ -155,6 +189,7 @@
           </li>
         </ul>
 
+        <div class="space"></div>
         <div class="company">Pet project</div>
         <ul>
           <li>
@@ -359,12 +394,6 @@ export default {
 .key {
     width: 20px;
 }
-.linkedin {
-    display: block;
-}
-.linkedin-cont {
-    text-align: left;
-}
 .edu-inner-cont {
     display: flex;
 }
@@ -444,5 +473,9 @@ li {
 .hackerrank {
   width: 14px;
   height: 14px;
+}
+.space {
+  height: 16px;
+  width: 100%;
 }
 </style>
